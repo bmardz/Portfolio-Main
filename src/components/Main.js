@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
-import pic03 from '../images/pic03.jpg'
 import dp from '../images/dp.jpg'
+import todo from '../images/todo.png'
 
 class Main extends React.Component {
   render() {
@@ -50,7 +50,7 @@ class Main extends React.Component {
             aliquam facilisis ante interdum congue. Integer mollis, nisl amet
             convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
             magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            By the way, check out my <a href="#work">Live Version</a>.
           </p>
           {close}
 
@@ -63,20 +63,28 @@ class Main extends React.Component {
             aliquam facilisis ante interdum congue. Integer mollis, nisl amet
             convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
             magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            By the way, check out my <a href="#work">Live Version</a>.
           </p>
           {close}
 
           <h2 className="major">Todo App</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={todo} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+            Simple Todo list built with Javascript. Users are able to do the following:
+            <br></br> 
+            <br></br>
+              1. Add and delete todo items
+            <br></br>
+              2. Select between all, completed or uncompleted list items
+            <br></br>
+              3. Save to local storage so list items still display when browser is reopened
+            <br></br>
+            <br></br>
+            <p>
+              By the way, check out my <a href="https://bmardz.github.io/todo-list/" target="_black">Live Version</a>.
+            </p>
           </p>
           {close}
         </article>
@@ -95,11 +103,15 @@ class Main extends React.Component {
             <img src={dp} alt="" />
           </span>
           <p>
-            Hi, I am Bryce a self taught front end developer based in Wollongong in search for a dev role. Approximately 10 months ago I found a new passion for web development and began teaching myself before and after work. I love problem solving and building projects spending most of my free time now coding and learning new things to become a better developer. I am hard working, passionate, committed and a fast learner! 
+            Hi, I am Bryce a self taught front end developer based in Wollongong in search for a dev role. Approximately 10 months ago I found a new passion for web development and began teaching myself before and after work. 
+            <br></br>
+            <br></br>
+            I love problem solving and building projects spending most of my free time coding and learning new things to become a better developer. I am hard working, passionate, committed and a fast learner! 
           </p>
           <br></br>
           <p>
             My current skills include:
+            <br></br>
             <br></br>
             HTML - CSS - Javascript - Reactjs - Redux - Firebase - Gatsby, VSCode
           </p>
