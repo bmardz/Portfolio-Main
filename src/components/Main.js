@@ -113,7 +113,7 @@ class Main extends React.Component {
             My current skills include:
             <br></br>
             <br></br>
-            HTML - CSS - Javascript - Reactjs - Redux - Firebase - Gatsby, VSCode
+            HTML - CSS - Javascript - Reactjs - Redux - Firebase - Gatsby - VSCode
           </p>
           {close}
         </article>
