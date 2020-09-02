@@ -29,7 +29,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Slack Clone</h2>
+          <h2 className="major">Netflix Clone</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
