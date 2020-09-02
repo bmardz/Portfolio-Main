@@ -42,7 +42,7 @@ class Main extends React.Component {
           </p>
           {close}
 
-          <h2 className="major">Messenger Clone</h2>
+          <h2 className="major">Spotify Clone</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
